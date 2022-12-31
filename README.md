@@ -8,5 +8,11 @@
 * talk‗listen.launchコマンド  
 talkerとlistenerの2つのノードを同時に立ち上げ、数字をカウントしてトピックの/countupを通じて受けとったメッセージを画面に出力する。
 
-# GitHub Actionsにおけるテスト
+## GitHub Actionsにおけるテスト
 ![test](https://github.com/osukeishihara/mypkg/actions/workflows/test.yml/badge.svg)
+
+## インストール方法
+ 
+ ```
+
+ $ git clone https://github.com/osukeishihara/mypkg.git       #リポジトリをローカル環境に複製するコマンド
