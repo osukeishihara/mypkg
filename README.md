@@ -15,7 +15,7 @@ talkerとlistenerの2つのノードを同時に立ち上げ、数字をカウ�
  
  ```
 
- $ git clone https://github.com/osukeishihara/mypkg.git         #リポジトリをローカル環境に複製するコマンド
+ $ git clone https://github.com/osukeishihara/mypkg.git         #リポジトリをローカル環境に複製するコマンド。
 
  ```
 
@@ -25,10 +25,10 @@ talkerとlistenerの2つのノードを同時に立ち上げ、数字をカウ�
  ```
 
  $ cd mypkg                         #mypkgというディレクトリに移動する。
- $ ros2 run mypkg talker            #talkerノードを実行するコマンド
+ $ ros2 run mypkg talker            #talkerノードを実行するコマンド。
    (何も表示されない）
 
- $ ros2 topic echo /countup         #別にターミナルを開き、トピックの/countupを画面に出力する。
+ $ ros2 topic echo /countup         #別にターミナルを開き、トピックの/countupを画面に出力するコマンド。
    data: 30
    ---
    data: 31                         #このように画面に出力される。 
@@ -36,3 +36,9 @@ talkerとlistenerの2つのノードを同時に立ち上げ、数字をカウ�
    ・・・                            
  
  ```
+
+* listenerコマンド
+
+ ```
+ $ cd mypkg         #mypkgというディレクトリに移動する。
+ $ ros2 run mypkg talker         #talkerノードを実行するコマンド。
