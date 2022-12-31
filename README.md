@@ -6,5 +6,5 @@
 　トピックの/countupから数字を受け取って画面に出力する。
 
 * talk‗listen.launchコマンド  
-　talkerとlistenerの2つのノードを同時に立ち上げ、数字をカウントしてトピックの/countupを通じ  
+talkerとlistenerの2つのノードを同時に立ち上げ、数字をカウントしてトピックの/countupを通じ  
   て受けとったメッセージを画面に出力する。
