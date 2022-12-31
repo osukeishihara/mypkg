@@ -57,5 +57,7 @@ talkerとlistenerの2つのノードを同時に立ち上げ、数字をカウ�
 
  ```
 
- $ cd launch         #launchというディレクトリに移動する。
- $ ros2 launch mypkg talk_listen.launch.py         #launchファイルを実行するコマンドで、talkerとlistenerの2つのノードが同時に立ち上がる。
+ $ cd launch                                                                #launchというディレクトリに移動する。
+ $ ros2 launch mypkg talk_listen.launch.py                                  #launchファイルを実行するコマンドで、talkerとlistenerの2つのノードが同時に立ち上がる。   [listener-2] [INFO] [1672473573.473690948] [listener]: Listen: 0
+   [listener-2] [INFO] [1672473573.962484471] [listener]: Listen: 1         #このように画面に出力される。
+   [listener-2] [INFO] [1672473574.462271443] [listener]: Listen: 2 
