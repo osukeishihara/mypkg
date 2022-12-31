@@ -2,7 +2,7 @@
 * talkerコマンド  
 パブリッシャを持つノードで、数字をカウントしてトピックの/countupを通じて送信される。
 
-* listnerコマンド  
+* listenerコマンド  
 サブスクライバを持つノードで、トピックの/countupから数字を受け取って画面に出力する。
 
 * talk‗listen.launchコマンド  
@@ -40,5 +40,12 @@ talkerとlistenerの2つのノードを同時に立ち上げ、数字をカウ�
 * listenerコマンド
 
  ```
- $ cd mypkg         #mypkgというディレクトリに移動する。
- $ ros2 run mypkg talker         #talkerノードを実行するコマンド。
+ $ cd mypkg                                                     #mypkgというディレクトリに移動する。
+ $ ros2 run mypkg talker                                        #talkerノードを実行するコマンド
+   (何も表示されない）
+
+ $ ros2 run mypkg listener                                      #listenerノードを実行するコマンド
+   [INFO] [1672472619.983395319] [listener]: Listen: 27
+   [INFO] [1672472620.474658465] [listener]: Listen: 28         #このように画面に出力される。
+                　　　　　
+　　　　　　　　　　　　　・・・
