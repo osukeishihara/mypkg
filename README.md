@@ -6,7 +6,7 @@
 * listenerコマンド  
 サブスクライバを持つノードで、トピックの/countupから数字を受け取って画面に出力する。
 
-* talk‗listen.launchコマンド  
+* talk_listen.launchコマンド  
 talkerとlistenerの2つのノードを同時に立ち上げ、数字をカウントしてトピックの/countupを通じて受けとったメッセージを画面に出力する。
 
 ## GitHub Actionsにおけるテスト
@@ -54,7 +54,7 @@ talkerとlistenerの2つのノードを同時に立ち上げ、数字をカウ�
  
  ```
 
-* talk‗listen.launchコマンド
+* talk_listen.launchコマンド
 
  ```
 
@@ -71,4 +71,4 @@ talkerとlistenerの2つのノードを同時に立ち上げ、数字をカウ�
 * Ubuntu 22.04.1 LTS
 
 ## 必要なソフトウェア
-*  
+* ROSのパージョン：ROS2
