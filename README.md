@@ -28,5 +28,11 @@ talkerとlistenerの2つのノードを同時に立ち上げ、数字をカウ�
  $ ros2 run mypkg talker         #talkerノードを実行するコマンド
    (何も表示されない）
 
- $ros2 topic echo /countup         #別にターミナルを開き、トピックの/countupを画面に出力する。
+ $ ros2 topic echo /countup         #別にターミナルを開き、トピックの/countupを画面に出力する。
+   data: 30
+   ---
+   data: 31
+
+   ・・・           #このように画面に出力される。
  
+ ```
